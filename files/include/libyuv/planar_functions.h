@@ -371,6 +371,7 @@ int I210Copy(const uint16_t* src_y,
              int height);
 
 // Copy NV12. Supports inverting.
+LIBYUV_API
 int NV12Copy(const uint8_t* src_y,
              int src_stride_y,
              const uint8_t* src_uv,
